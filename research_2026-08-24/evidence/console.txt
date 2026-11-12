@@ -1,0 +1,24 @@
+Browser console evidence — 2026-08-24, temporary no-login Playwright/Chromium session
+Official URL: https://www.anthonylewis.co.uk/
+
+Desktop audit after 1440x900 resize: 78 console errors, 0 warnings.
+Mobile audit after 390x844 resize: 81 console errors, 0 warnings.
+
+Representative observed failures (all HTTP 403 in this environment):
+- /wp-content/uploads/2018/04/Anthony-Lewis-Logo-Dark-250x62.png
+- /wp-content/uploads/2019/12/1-1536x1022.jpg
+- /wp-content/uploads/2019/12/2-1536x1022.jpg
+- /wp-content/uploads/2019/12/3-1536x1022.jpg
+- /wp-content/themes/soprano-theme/style.css
+- /wp-content/uploads/wp-scss-cache/primary-styles.css
+- /wp-content/plugins/contact-form-7/includes/css/styles.css
+- /wp-content/plugins/contact-form-7/includes/js/index.js
+- /wp-content/plugins/instagram-feed/css/sbi-styles.min.css
+- /wp-content/plugins/js_composer/assets/css/js_composer.min.css
+
+Direct page reopens that rendered 403 Forbidden — Request forbidden by administrative rules:
+- https://www.anthonylewis.co.uk/the-company/
+- https://www.anthonylewis.co.uk/why-choose-us/
+- https://www.anthonylewis.co.uk/projects/
+
+This file is an evidence summary, not a full network log. It supports the visual audit only and does not establish a universal website outage, ownership of the failed resources, or any authorization to reuse them.
